@@ -33,7 +33,7 @@ html, body {
 .wrapper .container .top {
   height: 80%;
   width: 100%;
-  background: url(../img/img2.jpg) no-repeat center center;
+  background: url(../img/img4.jpg) no-repeat center center;
   background-size: 100%;
 }
 .wrapper .container .bottom {
@@ -213,4 +213,9 @@ html, body {
 }
 .wrapper .inside .contents p {
   font-size: 13px;
+}
+@media(max-width: 1300px){
+  .container, .inside{
+    margin-left: 0px;
+  }
 }
